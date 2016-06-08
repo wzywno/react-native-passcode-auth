@@ -4,14 +4,12 @@
  */
 'use strict';
 
-// var React = require('react-native');
-import React, {Component} from 'react';
+var React = require('react-native');
+var {
+  NativeModules
+} = React;
 
-// var {
-//   NativeModules
-// } = React;
-
-var NativePasscodeAuth = require('NativeModules').PasscodeAuth;
+var NativePasscodeAuth = NativeModules.PasscodeAuth;
 
 /**
  * High-level docs for the Passcode iOS API can be written here.
