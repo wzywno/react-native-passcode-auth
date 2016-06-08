@@ -4,10 +4,12 @@
  */
 'use strict';
 
-var React = require('react-native');
-var {
-  NativeModules
-} = React;
+// var React = require('react-native');
+import React, {Component} from 'react';
+import { NativeModules } from 'react-native';
+// var {
+//   NativeModules
+// } = React;
 
 var NativePasscodeAuth = NativeModules.PasscodeAuth;
 
